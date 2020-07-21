@@ -3,12 +3,10 @@ import './App.css';
 import Characters from './components/Characters'
 
 
-function App() {
+export default function App() {
   return (
     <div class="App-header">
       <Characters />
     </div>
   )
 }
-
-export default App;
